@@ -86,7 +86,10 @@ footer {
   margin-bottom: 4rem;
 }
 .bio {
-  grid-column: span 2;
+  grid-column: 2 / span 2; /* colonnes 2 et 3 */
+}
+.photo {
+  grid-column: 4; /* colonne 4 uniquement */
 }
 .photo img {
   width: 100%;
