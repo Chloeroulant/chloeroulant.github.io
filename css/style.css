@@ -53,25 +53,26 @@ main {
   display: block;
 }
 
-
+/* pour la section info */
 .infos-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 2rem;
   align-items: start;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 .bio {
-  grid-column: 1 / span 2; /* colonnes 1 et 2 */
+  grid-column: span 2; /* colonnes 1 et 2 dans le main */
 }
 .photo {
-  grid-column: 3; /* colonne 3 uniquement */
+  grid-column: 3; /* colonne 3 dans le main */
 }
 .photo img {
   width: 100%;
   height: auto;
   display: block;
 }
+
 
 footer {
   display: flex;
