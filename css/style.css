@@ -73,19 +73,22 @@ main {
   display: block;
 }
 
+
 .nav-name {
   font-family: 'Geist', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.4;
   margin-bottom: 2rem;
-  color: grey;
+  text-transform: none;
+  color: #000; /* ou gris si tu veux adoucir */
 }
 
 .nav-name p {
   margin: 0;
+  font-size: 12px; /* on force bien ici */
+  font-weight: 400;
 }
-
 
 footer {
   display: flex;
