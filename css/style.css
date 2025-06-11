@@ -54,30 +54,6 @@ main {
 }
 
 
-
-.infos-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  align-items: start;
-  margin-bottom: 4rem;
-}
-.infos-grid p.en {
-  font-style: italic;
-  color: grey;
-}
-.infos-grid img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-footer {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.9rem;
-  color: grey;
-}
-
 .infos-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -95,4 +71,11 @@ footer {
   width: 100%;
   height: auto;
   display: block;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: grey;
 }
