@@ -53,6 +53,15 @@ main {
   display: block;
 }
 
+h1 {
+  font-family: 'Geist', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-transform: none;
+  line-height: 1.4;
+}
+
 /* pour la section info */
 .infos-grid {
   display: grid;
