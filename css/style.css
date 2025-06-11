@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+}
+nav {
+  width: 25%;
+  background: #f8f8f8;
+  padding: 2rem;
+  height: 100vh;
+  box-sizing: border-box;
+  position: fixed;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+nav li {
+  margin-bottom: 0.5rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a.active {
+  font-weight: bold;
+}
+main {
+  margin-left: 25%;
+  padding: 2rem;
+  width: 75%;
+  box-sizing: border-box;
+}
+.description {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.description p.en {
+  font-style: italic;
+  color: grey;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.images img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
