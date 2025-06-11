@@ -56,16 +56,16 @@ main {
 
 .infos-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
   align-items: start;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 .bio {
-  grid-column: 2 / span 2; /* colonnes 2 et 3 */
+  grid-column: 1 / span 2; /* colonnes 1 et 2 */
 }
 .photo {
-  grid-column: 4; /* colonne 4 uniquement */
+  grid-column: 3; /* colonne 3 uniquement */
 }
 .photo img {
   width: 100%;
