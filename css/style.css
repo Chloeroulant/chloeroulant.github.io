@@ -75,10 +75,11 @@ main {
 
 .nav-name {
   font-family: 'Geist', sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1;
   margin-bottom: 2rem;
+  color: grey;
 }
 
 .nav-name p {
